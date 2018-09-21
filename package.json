@@ -1,0 +1,25 @@
+{
+  "name": "luigi-demo-navigation-node-srv",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwiatekus/luigi-demo-navigation-node-srv.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwiatekus/luigi-demo-navigation-node-srv/issues"
+  },
+  "homepage": "https://github.com/kwiatekus/luigi-demo-navigation-node-srv#readme",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}

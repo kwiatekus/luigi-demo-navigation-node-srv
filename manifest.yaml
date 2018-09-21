@@ -1,0 +1,8 @@
+---
+applications:
+- name: navigation-node-srv
+  command: node index.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 256M
+  disk_quota: 256M
+  
