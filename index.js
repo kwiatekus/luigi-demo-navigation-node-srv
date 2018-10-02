@@ -45,10 +45,6 @@ router.get('/navigation', (request, response) => {
         label: 'Units',
         pathSegment: 'units',
         viewUrl: '/assets/dummy.html'
-    },{
-        label: 'Administration',
-        pathSegment: 'administration',
-        viewUrl: '/assets/dummy.html'
     }];
     response.json(nodes);
   });
