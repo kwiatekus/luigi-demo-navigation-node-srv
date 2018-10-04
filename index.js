@@ -12,7 +12,11 @@ app.get('/', (request, response) => response.send('OK'));
 app.use('/api', router);
 
   // this array is used for identification of allowed origins in CORS
-  const originWhitelist = ['http://localhost:4200'];
+  const originWhitelist = [
+    'http://localhost:4200',
+    'https://tractors-and-more.us-east.stage.cf.yaas.io',
+    'https://tractors.us-east.stage.cf.yaas.io'
+  ];
 
   // middleware CORS handling route that all requests pass through
   router.use((request, response, next) => {
